@@ -76,5 +76,12 @@ body{
 }
 
 .notes{
-  margin:30px 0px 0px 0px;
+  margin:56px 0px 0px 140px;
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 2px solid rgb(182, 173, 173);
+}
+.em-wastebasket{
+  margin: 0px 0px 0px 14em;
 }

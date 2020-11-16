@@ -10,15 +10,11 @@ function NewNotes() {
     const saveNote = () => {
         setState([...state,{note , id : Math.random() }])
     }
-    console.log("my state", state)
+
     const deleteNote =(note)=>{
         const deleteNotes= state.filter(oneNote=> oneNote.id !== note.id)
         setState(deleteNotes)
-        console.log("note",deleteNotes)
 
-    }
-    const editNote =(id)=>{
-       
     }
 
     
